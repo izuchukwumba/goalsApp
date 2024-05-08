@@ -18,6 +18,7 @@ function GoalInput(props) {
     props.onAddGoal(enteredGoalText);
     setEnteredGoalText("");
   }
+  // console.log('entereGoalInputdGoalText')
   return (
     <Modal visible={props.showModal} animationType="slide">
       <View style={styles.inputContainer}>
